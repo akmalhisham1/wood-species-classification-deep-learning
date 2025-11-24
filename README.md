@@ -44,8 +44,11 @@ python src/train_xception.py
 📘 Documentation
 
 See /docs folder for:
+
 -project_overview.md
+
 -model_architecture.md
+
 -result.md
 
 📌 Author
