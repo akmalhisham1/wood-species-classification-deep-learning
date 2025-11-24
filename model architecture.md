@@ -5,7 +5,8 @@ This document explains the structure and logic behind the two deep learning mode
 # 1. Xception Model
 
 Xception (Extreme Inception) is a deep CNN architecture that improves both speed and accuracy by replacing traditional convolutions with depthwise separable convolutions.
-![Uploading image.png…]()
+
+<img width="742" height="217" alt="image" src="https://github.com/user-attachments/assets/ae183bc8-f058-4d5f-aa95-d0269f30e691" />
 
 
 
