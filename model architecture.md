@@ -5,6 +5,9 @@ This document explains the structure and logic behind the two deep learning mode
 # 1. Xception Model
 
 Xception (Extreme Inception) is a deep CNN architecture that improves both speed and accuracy by replacing traditional convolutions with depthwise separable convolutions.
+![Uploading image.png…]()
+
+
 
 # 🔧 Key Ideas
 
@@ -40,6 +43,7 @@ Highest accuracy: 87%
 
 ResNet50 introduces the concept of residual connections, which help extremely deep networks learn effectively by avoiding the “vanishing gradient” problem.
 
+<img width="737" height="217" alt="image" src="https://github.com/user-attachments/assets/a0569d40-4b6e-4581-b17e-a7e4bc51a7ee" />
 # 🔧 Key Ideas
 
 Skip connections allow gradients to flow through the network
