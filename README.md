@@ -6,17 +6,17 @@ A computer vision project that classifies wood species using transfer learning w
 
 🚀 Features
 
-Multi-class image classifier
+-Multi-class image classifier
 
-Transfer learning with Keras
+-Transfer learning with Keras
 
-Xception (best-performing model)
+-Xception (best-performing model)
 
-ResNet50 baseline comparison
+-ResNet50 baseline comparison
 
-Confusion matrix, accuracy graphs, evaluation scripts
+-Confusion matrix, accuracy graphs, evaluation scripts
 
-Clean modular ML code structure
+-Clean modular ML code structure
 
 🧠 Model Comparison
 Model	Accuracy	Best Use
@@ -31,15 +31,15 @@ python src/train_xception.py
 
 🛠 Tech Stack
 
-Python
+-Python
 
-TensorFlow
+-TensorFlow
 
-Keras
+-Keras
 
-Matplotlib
+-Matplotlib
 
-Scikit-learn
+-Scikit-learn
 
 📘 Documentation
 
