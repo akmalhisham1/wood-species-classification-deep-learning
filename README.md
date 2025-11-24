@@ -1,5 +1,5 @@
 # wood-species-classification-deep-learning
-Wood species image classification using CNN Transfer Learning (Xception &amp; ResNet50)
+
 🌳 Wood Species Classification Using Deep Learning
 
 A computer vision project that classifies wood species using transfer learning with Xception and ResNet50 architectures.
