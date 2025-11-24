@@ -100,4 +100,4 @@ Deploy as API or web service
 8. Author
 
 Mohamad Akmal Syahmi
-Machine Learning & Data Engineering Enthusiast
+Machine Learning & Data Analyst Enthusiast
