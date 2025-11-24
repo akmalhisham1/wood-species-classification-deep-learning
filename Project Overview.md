@@ -22,7 +22,8 @@ The goal is to build a scalable, automated wood-recognition system suitable for 
 ⚙ Flexible and extendable code — suitable for future mobile or web deployment
 
 # 3. Dataset
-Source: Zenodo (public dataset)
+ <img width="706" height="439" alt="image" src="https://github.com/user-attachments/assets/abe65b12-0861-45b9-bc45-a467f8876e15" />
+Source: Zenodo (public dataset) 
 
 Total images: 8,544
 
@@ -41,6 +42,8 @@ Width/height shift
 Zoom augmentation
 
 This improves generalization and reduces overfitting during training.
+
+<img width="729" height="433" alt="image" src="https://github.com/user-attachments/assets/28438ed5-8465-414f-b972-be2fd872ce57" />
 
 # 4. Training Summary
 The project includes three categories of experiments:
