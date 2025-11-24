@@ -1,13 +1,13 @@
 
 A transfer-learning approach for classifying wood species using macroscopic images.
 
-1. Overview
+# 1. Overview
 
 This project applies modern deep learning techniques to classify different categories of wood based on image data. Instead of using handcrafted features, the system uses two pretrained CNN architectures — Xception and ResNet50 — and fine-tunes them on a curated wood dataset.
 
 The goal is to build a scalable, automated wood-recognition system suitable for industrial applications, quality inspection, and material selection.
 
-2. Key Features
+# 2. Key Features
 
 🔍 Automated wood species classification
 
@@ -21,8 +21,7 @@ The goal is to build a scalable, automated wood-recognition system suitable for 
 
 ⚙ Flexible and extendable code — suitable for future mobile or web deployment
 
-3. Dataset
-
+# 3. Dataset
 Source: Zenodo (public dataset)
 
 Total images: 8,544
@@ -43,8 +42,7 @@ Zoom augmentation
 
 This improves generalization and reduces overfitting during training.
 
-4. Training Summary
-
+# 4. Training Summary
 The project includes three categories of experiments:
 
 Experiment A — Epoch Count
@@ -70,12 +68,12 @@ Softmax demonstrated the best accuracy
 
 Alternative activations performed weaker
 
-5. Results
+# 5. Results
 Model	Accuracy	Notes
 Xception	87%	Best performance with balanced precision, recall & F1-score
 ResNet50	82%	Slight overfitting, lower generalization
-6. Why This Project Matters
 
+# 6. Why This Project Matters
 Wood classification is usually done manually by experts — a slow and error-prone process. By automating the task:
 
 Manufacturers reduce misclassification errors
@@ -86,7 +84,7 @@ Faster processing time
 
 Consistent results regardless of human fatigue
 
-7. Future Enhancements
+# 7. Future Enhancements
 
 Mobile app integration (camera → prediction)
 
@@ -96,7 +94,7 @@ Add Grad-CAM for model explainability
 
 Deploy as API or web service
 
-8. Author
+# 8. Author
 
 Mohamad Akmal Syahmi
 Machine Learning & Data Analyst Enthusiast
