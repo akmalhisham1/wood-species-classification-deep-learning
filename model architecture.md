@@ -1,12 +1,12 @@
-Model Architecture
+# Model Architecture
 
 This document explains the structure and logic behind the two deep learning models used in this project.
 
-1. Xception Model
+# 1. Xception Model
 
 Xception (Extreme Inception) is a deep CNN architecture that improves both speed and accuracy by replacing traditional convolutions with depthwise separable convolutions.
 
-🔧 Key Ideas
+# 🔧 Key Ideas
 
 Depthwise convolution → learns spatial patterns
 
@@ -16,7 +16,7 @@ Fewer parameters, faster training
 
 Excellent for fine-grained image classification (perfect for wood textures)
 
-🏗 Architecture Used in This Project
+# 🏗 Architecture Used in This Project
 
 Input → Xception base (pretrained on ImageNet)
 
@@ -30,17 +30,17 @@ Only the Dense layer is trainable (73k parameters)
 
 Total parameters: 20.9 million
 
-🎯 Why It Works Well
+# 🎯 Why It Works Well
 
 Wood textures have fine patterns → Xception excels at capturing subtle details
 
 Highest accuracy: 87%
 
-2. ResNet50 Model
+# 2. ResNet50 Model
 
 ResNet50 introduces the concept of residual connections, which help extremely deep networks learn effectively by avoiding the “vanishing gradient” problem.
 
-🔧 Key Ideas
+# 🔧 Key Ideas
 
 Skip connections allow gradients to flow through the network
 
@@ -50,7 +50,7 @@ Strong baseline for most image-classification tasks
 
 Powerful, but heavier than Xception
 
-🏗 Architecture Used
+# 🏗 Architecture Used
 
 Input → ResNet50 base (pretrained on ImageNet)
 
@@ -64,7 +64,7 @@ Only Dense layer is trainable
 
 Total parameters: 23.6 million
 
-⚠ Observation
+# ⚠ Observation
 
 Shows slight overfitting
 
@@ -72,22 +72,24 @@ Accurate but less robust
 
 Final accuracy: 82%
 
-3. Comparison Summary
-Aspect	Xception	ResNet50
-Architecture style	Depthwise separable CNN	Residual CNN
-Parameters	20.9M	23.6M
-Trainable params	73k	73k
-Performance	⭐ Best (87%)	Good (82%)
-Overfitting	Low	Medium
-Suitable for	Fine-grained textures	General image tasks
-4. Why Xception Was Chosen
+# 3. Comparison Summary
+| Aspect                | Xception                     | ResNet50                |
+|-----------------------|------------------------------|--------------------------|
+| Architecture style    | Depthwise Separable CNN      | Residual CNN            |
+| Parameters            | 20.9M                        | 23.6M                   |
+| Trainable Params      | 73k                          | 73k                     |
+| Performance           | ⭐ Best (87%)                | Good (82%)              |
+| Overfitting           | Low                          | Medium                  |
+| Suitable for          | Fine-grained textures        | General image tasks     |
+
+# 4. Why Xception Was Chosen
 
 ✔ Captures detailed texture patterns
 ✔ More efficient
 ✔ Better generalization
 ✔ Higher precision, recall, and F1-score across input classes
 
-5. Implementation Notes
+# 5. Implementation Notes
 
 Both models use transfer learning, freezing the pretrained layers
 
