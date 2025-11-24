@@ -1,4 +1,3 @@
-Wood Recognition Using Deep Learning
 
 A transfer-learning approach for classifying wood species using macroscopic images.
 
