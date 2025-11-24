@@ -23,6 +23,9 @@ The goal is to build a scalable, automated wood-recognition system suitable for 
 
 # 3. Dataset
  <img width="706" height="439" alt="image" src="https://github.com/user-attachments/assets/abe65b12-0861-45b9-bc45-a467f8876e15" />
+
+
+
 Source: Zenodo (public dataset) 
 
 Total images: 8,544
