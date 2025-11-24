@@ -1,23 +1,30 @@
-wood-species-classifier/
-│
-├── notebooks/
-│     └── xception_model_training.ipynb
+wood-species-classification/
 │
 ├── src/
-│     ├── dataset_preprocessing.py
-│     ├── train_model.py
-│     └── predict.py
+│   ├── train_xception.py
+│   ├── train_resnet50.py
+│   ├── evaluate_model.py
+│   ├── dataset_loader.py
+│   └── utils.py
 │
-├── results/
-│     ├── accuracy_xception.png
-│     ├── loss_xception.png
-│     └── confusion_matrix.png
+├── notebooks/
+│   ├── Xception.ipynb
+│   └── ResNet50.ipynb
 │
 ├── models/
-│     └── (optional small weights, but better: DON'T upload large weights)
+│   └── (optional) your_model.h5 (if file < 50MB)
+│
+├── results/
+│   ├── accuracy_xception.png
+│   ├── loss_xception.png
+│   ├── confusion_matrix_xception.png
+│   └── comparison_table.png
 │
 ├── docs/
-│     └── system_architecture.png (optional)
+│   ├── project_overview.md
+│   └── model_architecture.md
 │
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── LICENSE
+
